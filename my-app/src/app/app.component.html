@@ -1,0 +1,36 @@
+<!-- Image and text -->
+
+<nav class="navbar navbar-light bg-dark">
+    
+    <a class="navbar-brand" href="#">
+      <img src="https://www.kfar-saba.muni.il/uploads/n/1599563100.6626.gif" width="70" height="70" class="d-inline-block align-top" alt="">
+     <p style="color:azure">Welcome to the Kfar-Saba Municipality</p> 
+    </a>
+    <div class="container">
+    <p style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:aliceblue">Kfar Saba, officially Kefar Sava, is a city in the Sharon region, of the Central District of Israel. In 2019 it had a population of 110,456. The population of Kfar Saba is nearly entirely Jewish.</p>
+    </div>
+  </nav>
+
+
+  <ul class="nav nav-tabs" style="background-color: orange;">
+    <li class="nav-item">
+      <a class="nav-link" style="color:black ;" routerLink="/residents">Residents</a> 
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" style="color:black ;" routerLink="/employees">Employees</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" style="color:black ;" routerLink="/business">Business</a>
+    </li>
+  </ul>
+
+<div class="img">
+  <router-outlet></router-outlet>
+  <div class="footer">
+    <nav class="navbar navbar-light bg-dark">
+        <p class="center" style="margin-left:50px;color: aliceblue;">Copyright © 2022 Kfar-Saba Municipality, all rights reserved. This site is maintained by Shoval Soli. Created in 2022.</p> 
+
+      </nav>
+  </div>
+</div>
+

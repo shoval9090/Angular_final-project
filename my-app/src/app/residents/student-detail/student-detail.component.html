@@ -1,0 +1,28 @@
+<div class="container">
+    <h2>Resident details</h2>
+    <div *ngIf="resident | async as resident">
+        <h3>{{ resident.Name }}</h3>
+
+        <p>ID: {{ resident.Id }}</p>
+
+        <label style="color:white ;">Edit name:</label>
+        <input type="text" [(ngModel)]='resident.Name' class='form-control'/>
+        <label style="color:white ;">Edit age:</label>
+        <input type="number" [(ngModel)]='resident.Age' class='form-control'/>
+        <label style="color:white ;">Edit city:</label>
+        <input type="text" [(ngModel)]='resident.City' class='form-control'/>
+        <label style="color:white ;">Edit male:</label>
+        <input type="text" [(ngModel)]='resident.IsMale' class='form-control'/>
+        <label style="color:white ;">Edit address:</label>
+        <input type="text" [(ngModel)]='resident.Address' class='form-control'/>
+        <label style="color:white ;">Edit year of commencement:</label>
+        <input type="number" [(ngModel)]='resident.Year' class='form-control'/>
+        <label style="color:white ;">Edit status:</label>
+        <input type="text" [(ngModel)]='resident.Status' class='form-control'/>
+
+        <br/>
+
+        <button class="btn btn-primary" (click)="goBack()">Go back</button>
+
+    </div>
+</div>

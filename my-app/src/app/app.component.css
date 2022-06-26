@@ -1,0 +1,19 @@
+.img{
+    background-image: url(../assets/Kfar-Saba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.header {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}

@@ -1,0 +1,19 @@
+<div class="container">
+    <h3>Businesses list</h3>
+
+    <div class="row">
+        <div *ngFor="let business of businesses | async" class="col-lg-9 mb-3">
+                <div class="card" style="width: 15rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{business.Name}}</h5>
+                        <h5 class="card-title">{{business.Id}}</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Employees: {{business.Employees}}</li>
+                      <li [ngStyle]="{color:business.Profit>5000?'blue':'red'}" class="list-group-item">Profit: {{business.Profit}}</li>
+                    </ul>
+                  </div>
+                </div>
+      </div>
+    
+</div>
