@@ -13,13 +13,28 @@ after you will press the edit button we will be redirected to the edit page wher
 <img width="767" alt="עריכה של עובד עירייה 2" src="https://user-images.githubusercontent.com/93192285/175814852-7346657a-38b2-4c2b-9f97-ba1cf4748db6.png">
 
 
-here we can see it after the change :
+here we can see it after the change 
+
 <img width="533" alt="מראה שהשינוי נשמר 3 " src="https://user-images.githubusercontent.com/93192285/175814999-cb3a5b61-a9b9-4bfe-812b-b438dd54d695.png">
 
 
 
-After we will press on the "Employees" TAB in the NAV menu on the top on the page we can access to the employees list of the specific city .
+
+After we will press on the " Employees " TAB in the NAV menu on the top on the page we can access to the employees list of the specific city .
+
 
 <img width="840" alt="4 מסך עובדי עירייה " src="https://user-images.githubusercontent.com/93192285/175815008-402fb493-e4f8-48e4-8d62-a7e960965e99.png">
+
+After we will press on the " Businesses " TAB in the NAV menu ,
+we will get the access to the Businesses list on the city with a short description about each one from the business.
+
+<img width="675" alt="מסך עסקים 5" src="https://user-images.githubusercontent.com/93192285/175815179-379671b7-a27f-4759-8df3-0af4a0029923.png">
+
+
+
+<img width="658" alt="מסך עסקים 6 " src="https://user-images.githubusercontent.com/93192285/175815185-2645bf16-bc22-45ee-b059-03432e8991a6.png">
+
+
+I hope you guys enjoyed, 
 
 
